@@ -15,12 +15,12 @@ public class Step_4_5 {
                 list[firstBox-1] = ballNum;
             } else
             {
-                for (int j = firstBox-1; j <= lastBox - 1; j++) {
+                for (int j= firstBox-1; j <= lastBox - 1; j++) {
                     list[j] = ballNum;
                 }
             }
         }
         for(int a:list)
-            System.out.print(a+" ");;
+            System.out.print(a+" ");
     }
 }
