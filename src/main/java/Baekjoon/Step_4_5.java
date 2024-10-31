@@ -21,6 +21,6 @@ public class Step_4_5 {
             }
         }
         for(int a:list)
-            System.out.print(a+" ");;
+            System.out.print(a+" ");
     }
 }
