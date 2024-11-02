@@ -8,7 +8,6 @@ public class Step_4_8 {
         int[] list = new int[10];
         int[] resultList = new int[10];
         int x = 42;
-        int count = 1;
 
         for (int a = 0; a < 10; a++) {
             int number = scanner.nextInt();
