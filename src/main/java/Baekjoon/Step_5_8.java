@@ -6,5 +6,9 @@ public class Step_5_8 {
         String input = sc.nextLine();
         StringTokenizer st = new StringTokenizer(input," ");
         System.out.println(st.countTokens());
+
+        String[] a = input.split(" ");
+        for(String x: a)
+            System.out.println(x);
     }
 }
